@@ -1,0 +1,42 @@
+----------------------------
+PLANERING PROJEKTVT2023 TTJ
+----------------------------
+
+-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+
+
+Huvudidé: 
+
+* "Fedora", typ som foodora fast man har redan ätit middag. Endast (hem)beställning av dessert. Logga som är en fedora (hatten).
+
+
+-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+
+
+Styling: 
+
+rgb(15, 215, 130) & #0FD782 hexadecimal kod för grön färg(huvudfärg)
+
+* https://www.color-hex.com/color/0fd782
+
+grayish färg #333333
+
+
+-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+
+
+Referenser för inspo:
+
+* https://www.foodora.se/
+
+
+
+-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+
+
+Kom ihåg: 
+
+* Media queries (lägg alltid media queries längst ned i css-dok) för annorlunda layout mellan pc & mobil
+
+
+-*-*-*-*-*-*-*-*-*-*-*-*-*-*
