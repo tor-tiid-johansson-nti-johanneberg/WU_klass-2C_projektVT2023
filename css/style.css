@@ -1,0 +1,59 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.grid-wrapper {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-template-rows: 100px 400px 400px 400px 400px 80px;
+    grid-template-areas: 
+    "na na"
+    "s1 s1"
+    "s2 s2"
+    "s3 s3"
+    "s4 s4"
+    "fo fo";
+}
+
+h1 {
+    font-family: coolveticaregular;
+    font-size: 40px;
+}
+
+
+nav {
+    display: flex;
+    align-items: center;
+    grid-area: na;
+    background-color: rgb(15, 215, 130);
+}
+
+#nav-logo {
+    margin-right: 5px;
+}
+
+#burger div {
+    width: 25px;
+    height: 3px;
+    background-color: darkgreen;
+    margin: 5px;
+    border-radius: 20%;
+    transition: all 0.5s;
+}
+
+#burger {
+    margin-right: 30px;
+    margin-left: 40px;
+    cursor: pointer;
+}
+
+@font-face {
+    font-family: 'coolveticaregular';
+    src: url('/fonts/coolvetica_rg_it-webfont.woff2') format('woff2'),
+         url('/fonts/coolvetica_rg_it-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
