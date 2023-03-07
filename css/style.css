@@ -9,31 +9,60 @@ a, a:hover, a:active {
     color: inherit;
 }
 
-.grid-wrapper {
+#grid_wrapper {
     display: grid;
     grid-template-columns: 1fr 2fr;
-    grid-template-rows: 100px 400px 400px 400px 400px 80px;
+    grid-template-rows: 400px 400px 400px 400px;
     grid-template-areas: 
-    "na na"
     "s1 s1"
     "s2 s2"
     "s3 s3"
-    "s4 s4"
-    "fo fo";
-}
+    "s4 s4";
+}  
 
 h1 {
     font-family: coolveticaregular;
     font-size: 40px;
 }
 
+h2 {
+    font-family: coolveticaregular;
+    font-size: 40px;
+}
 
 nav {
     display: flex;
     align-items: center;
-    grid-area: na;
     background-color: rgb(15, 215, 130);
+    height: 100px;
 }
+
+#login_button {
+    position: absolute;
+    right: 20px;
+    width: 100px;
+}
+
+#s1 {
+    grid-area: s1;
+    background-color: antiquewhite;
+}
+
+#s2 {
+    grid-area: s2;
+    background-color: aquamarine;
+}
+
+#s3 {
+    grid-area: s3;
+    background-color: black;
+}
+
+#s4 {
+    grid-area: s4;
+    background-color: brown;
+}
+
 
 #nav-logo {
     margin-right: 5px;
@@ -82,6 +111,14 @@ nav {
     transition: all 0.5s;
 }
 
+nav ul li:hover {
+    opacity: 50%;
+}
+
+#navbar_a {
+    display: flex;
+    align-items: center;
+}
 
 .link_list_visible {
     transform: translateX(200px)
