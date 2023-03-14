@@ -36,7 +36,7 @@ Referenser för inspo:
 
 Kom ihåg: 
 
-* Media queries (lägg alltid media queries längst ned i css-dok) för annorlunda layout mellan pc & mobil
+* Media queries (lägg alltid media queries längst ned i css-dok) för annorlunda layout mellan olika enheter
 
 
 -*-*-*-*-*-*-*-*-*-*-*-*-*-*

@@ -1,4 +1,3 @@
-<!--todo-->
 <!DOCTYPE html>
 <html lang="sv">
 <head>
@@ -37,14 +36,30 @@
 
     <main id="grid_wrapper">
         <section id="s1">
-            <h1 id="h1_index">När du redan ätit middag. Eller bara är sugen.</h1>
+          <h1 id="h1_index">När du redan ätit middag. Eller bara är sugen.</h1>
+          <form id="search_form">
+            <label for="search_input">Sök efter dessert:</label>
+            <input type="text" id="search_input" name="search_input" placeholder="Sök efter dessert...">
+            <button type="submit">Sök</button>
+          </form>
         </section>
-        <section id="s2">b</section>
-        <section id="s3">c</section>
-        <section id="s4">d</section>
-    </main>
+        <section id="s2">
+          <div id="dessert_images">
+            <img src="img/dessert1.jpg" alt="Dessert 1">
+            <img src="img/dessert2.jpg" alt="Dessert 2">
+            <img src="img/dessert3.jpg" alt="Dessert 3">
+          </div>
+        </section>
+        <section id="s3">
+            <div id="map"></div> <!-- here goes the google interactable map -->
+        </section>
+        <section id="s4"></section>
+      </main>
     
-    <footer><p>© fedoora 2023</p></footer>
+    <footer>
+        <p>p.s vi säljer dina personuppgifter till kinesiska staten</p>
+        <p>© fedoora 2023</p>
+    </footer>
 
     <script src="js/script.js"></script> 
 </body>
