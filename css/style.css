@@ -30,6 +30,11 @@ h2 {
     font-size: 40px;
 }
 
+h3 {
+    font-family: coolveticaregular;
+    font-size: 20px;
+}
+
 nav {
     display: flex;
     align-items: center;
@@ -51,18 +56,35 @@ nav {
 #s2 {
     grid-area: s2;
     background-color: aquamarine;
+    display: flex;
+    justify-content: center;
+}
+#s2 h3 {
+    padding-right: 30vw;
+}
+#s2 div div {
+
 }
 
 #s3 {
     grid-area: s3;
-    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 #s4 {
     grid-area: s4;
-    background-color: brown;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10vw;
 }
 
+p {
+    font-family: 'coolveticaregular', sans-serif;
+}
 
 #nav-logo {
     margin-right: 5px;
