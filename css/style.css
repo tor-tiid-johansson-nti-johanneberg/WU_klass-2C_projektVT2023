@@ -48,22 +48,36 @@ nav {
     width: 100px;
 }
 
+main {
+    background-color: #F5F5F5;
+}
+
 #s1 {
     grid-area: s1;
-    background-color: antiquewhite;
 }
 
 #s2 {
     grid-area: s2;
-    background-color: aquamarine;
     display: flex;
-    justify-content: center;
+    flex-direction: column;
+    align-items: center;
 }
-#s2 h3 {
-    padding-right: 30vw;
-}
-#s2 div div {
 
+/* FIXA SÅ ATT BILDERNA INTE FUCKAS NÄR WINDOW SIZE BLIR FÖR LITEN */
+
+#dessert_images img{
+    padding-top: 50px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+#cafe_names {
+    display: flex;
+    flex-direction: row;
+}
+
+#cafe_names p {
+    padding-left: 100px;
 }
 
 #s3 {
