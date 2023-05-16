@@ -20,6 +20,14 @@ a, a:hover, a:active {
     "s4 s4";
 }  
 
+#dessert_grid_wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 400px;
+    grid-template-areas:
+    "d1 d2 d3 d3";
+}
+
 h1 {
     font-family: coolveticaregular;
     font-size: 40px;
@@ -65,10 +73,20 @@ main {
 
 /* FIXA SÅ ATT BILDERNA INTE FUCKAS NÄR WINDOW SIZE BLIR FÖR LITEN */
 
-#dessert_images img{
+.dessert_images {
     padding-top: 50px;
     padding-left: 10px;
     padding-right: 10px;
+}
+
+.dessert_text {
+    /* https://www.iconfinder.com/icons/4923044/apple_pay_icon */
+    /* https://icons8.com/icons/set/apple-pay */
+
+
+
+    /* HELT GRATIS */
+    /* https://pixabay.com/illustrations/card-credit-card-icons-3293508/ */
 }
 
 #cafe_names {
@@ -197,6 +215,30 @@ footer a {
 }
 
 
+#form_section {
+    height: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+input {
+    height:50px;
+    width: 600px;
+}
+
+#search_button {
+    height: 50px;
+    width: 50px;
+    font-size: 20px;
+} 
+
+/* OM SEARCHINPUTS FONT_SIZE != SEARCH_BUTTONS FONT_SIZE FÖRSKJUTS DEN MED STÖRST FONT SIZE UPPÅT+???? */
+#search_input {
+    font-size: 20px;
+}
+
+
 
 @font-face {
     font-family: 'coolveticaregular';
@@ -262,7 +304,7 @@ footer a {
 
     #search_form {
         margin-top: 10px;
-        width: 100%;
+        width: 10%;
     }
 
     #dessert_images {
