@@ -25,7 +25,7 @@ a, a:hover, a:active {
     grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-template-rows: 400px;
     grid-template-areas:
-    "d1 d2 d3 d3";
+    "d1 d2 d3 d4";
 }
 
 h1 {
@@ -80,13 +80,7 @@ main {
 }
 
 .dessert_text {
-    /* https://www.iconfinder.com/icons/4923044/apple_pay_icon */
-    /* https://icons8.com/icons/set/apple-pay */
     padding-left: 125px;
-
-
-    /* HELT GRATIS */
-    /* https://pixabay.com/illustrations/card-credit-card-icons-3293508/ */
 }
 
 #cafe_names {
